@@ -1,0 +1,27 @@
+/**
+ * Header component
+ */
+ .header {
+    height: 4.8rem;
+    background-color: #394782;
+    display: flex;
+    opacity: 0.5;
+
+    ul {
+        margin: 0;
+        padding-inline-start: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .logo {
+        width: 6.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

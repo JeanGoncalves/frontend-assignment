@@ -1,5 +1,6 @@
 <template>
     <div>
+        <div class="company-page company-page__opacity"></div>
         <Header />
         <RouterView />
         <Footer />

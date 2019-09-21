@@ -1,19 +1,8 @@
+@import 'Styles/_template-company-page';
+@import 'Styles/_input';
+
 body {
+    font-family: sans-serif;
     margin: 0 auto;
     padding: 0;
-}
-
-/* Model of template*/
-.company-page {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../_tmp/Company_Page.png);
-    background-size: cover;
-    position: fixed;
-    top: 0;
-    z-index: -1;
-    
-    &__opacity {
-        opacity: 0.3;
-    }
 }
